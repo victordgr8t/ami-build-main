@@ -15,7 +15,7 @@ pipeline {
                 }
             }
         }ß
-        stage("Building AMI WITH PACKER") {
+        stage("Building AMI") {
             steps {
                 withCredentials([
                     [
