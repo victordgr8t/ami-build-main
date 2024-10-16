@@ -14,7 +14,7 @@ pipeline {
                     sh "aws s3 ls"
                 }
             }
-        }ß
+        }
         stage("Building AMI") {
             steps {
                 withCredentials([
